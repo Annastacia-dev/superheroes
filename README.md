@@ -2,44 +2,44 @@
 
 ## SUPERHEROES
 
-    - This is a simple api to get information about superheroes.
+- This is a simple api to get information about superheroes.
 
 ### ROUTES
 
-#### GET /superheroes
+#### GET /heroes
 
-    - This route returns all superheroes.
+- This route returns all superheroes.
 
-#### GET /superheroes/:id
+#### GET /heroes/:id
     
-        - This route returns a specific superhero.
+- This route returns a specific superhero.
 
 #### GET /powers
 
-    - This route returns all powers.
+- This route returns all powers.
 
 #### GET /powers/:id
     
-        - This route returns a specific power.
+- This route returns a specific power.
 
 #### PATCH /powers/:id
     
-        - This route updates a power.
-        - It accepts a JSON body with the following format:
+- This route updates a power.
+- It accepts a JSON body with the following format:
             {
                 "description": "Super Strength"
             }
 
 #### POST /hero_powers
 
-    - This route creates a new hero_power.
-    - It accepts a JSON body with the following format:
+- This route creates a new hero_power.
+- It accepts a JSON body with the following format:
         {
             "hero_id": 1,
             "power_id": 2,
             "strength": "Strong"
         }
-    - Strentgh can be Strong, Weak, or Average
+- Strength can be Strong, Weak, or Average
 
 #### INFORMATION
 
